@@ -1,6 +1,5 @@
 FROM alpine:3.5
 
-COPY slapd.args /var/run/openldap/
 COPY docker-entrypoint.sh /docker-entrypoint.sh
 
 RUN \
